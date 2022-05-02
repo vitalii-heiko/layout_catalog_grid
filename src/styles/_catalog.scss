@@ -1,6 +1,6 @@
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);  
+  grid-template-columns: repeat(auto-fill, 200px);
   justify-content: center;
   gap: 48px;
 
@@ -24,19 +24,19 @@
 }
 
 @media (min-width: 488px) {
-  .catalog{
+  .catalog {
     grid-template-columns: repeat(2, 200px);
   }
 }
 
 @media (min-width: 768px) {
-  .catalog{
+  .catalog {
     grid-template-columns: repeat(3, 200px);
   }
 }
 
 @media (min-width: 1024px) {
-  .catalog{
+  .catalog {
     grid-template-columns: repeat(4, 200px);
   }
 }
